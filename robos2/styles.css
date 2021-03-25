@@ -1,0 +1,179 @@
+body {
+	margin: 0px;
+}
+nav {
+	height: 10vh;
+	width: 100vw;
+	position: absolute;
+	background-color: #eaf9fc;
+}
+.nav-links {
+	display: flex;
+	list-style: none;
+	width: 50%;
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: auto;
+}
+.nav-links li a {
+	font-family: "Oswald", sans-serif;
+	color: rgb(75, 76, 77);
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.nav-links li:hover {
+	transform: translateY(-8px);
+	transition: 0.3s ease;
+}
+
+#brand {
+	position: absolute;
+	list-style: none;
+	top: 50%;
+	left: 3%;
+	transform: translate(-3%, -50%);
+}
+
+#brand li a {
+	font-family: "Oswald", sans-serif;
+	color: rgb(75, 76, 77);
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-weight: bolder;
+}
+.image {
+	height: 550px;
+	width: 600px;
+	object-fit: contain;
+	float: right;
+}
+
+.heading h1 {
+	font-family: 'Belleza', sans-serif;
+	color: rgb(75, 76, 77);
+	text-align: center;
+	font-size: 3rem;
+	padding-top: 200px;
+}
+
+.heading h2 {
+	font-family: 'Belleza', sans-serif;
+	color: rgb(75, 76, 77);
+	text-align: center;
+}
+.ml11 {
+	font-weight: 700;
+	font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+	position: relative;
+	display: inline-block;
+	padding-top: 0.1em;
+	padding-right: 0.05em;
+	padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 3px;
+	background-color: #fff;
+	transform-origin: 0 50%;
+}
+
+.ml11 .line1 {
+	top: 0;
+	left: 0;
+}
+
+.ml11 .letter {
+	display: inline-block;
+	line-height: 1em;
+}
+
+.button {
+	margin-left: 300px;
+	margin-top: 20px;
+}
+
+.meditate {
+	background-color: #eaf9fc;
+	clear: right;
+	text-align: center;
+}
+
+.meditate h1 {
+	font-family: 'Belleza', sans-serif;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.button.play {
+	width: 30px;
+	height: 30px;
+	border-style: solid;
+	border-width: 37px;
+	border-color: #202020;
+	box-sizing: border-box;
+	border-width: 37px 0px 37px 74px;
+	border-color: transparent transparent transparent #202020;
+	background-color: #eaf9fc;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.form {
+	text-align: center;
+	margin-bottom: 40px;
+	margin-left: 620px;
+}
+
+.meditate-pic {
+	height: 400px;
+	width: 400px;
+	object-fit: contain;
+	display: block;
+	margin: auto;
+}
+
+.anxiety-test h1 {
+	text-align: center;
+	font-family: 'Belleza', sans-serif;
+	margin-top: 20px;
+}
+
+.anxiety-test p {
+	text-align: left;
+	font-family: 'Belleza', sans-serif;
+	margin-top: 40px;
+}
+
+.anxiety-test img {
+	float: right;
+}
+.setting {
+	overflow: auto;
+}
+.setting p {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.dis {
+	background-color: #eaf9fc;
+}
+
+.ftr {
+	background-color: #02263c;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	text-shadow: 5px;
+	text-transform: uppercase;
+}
